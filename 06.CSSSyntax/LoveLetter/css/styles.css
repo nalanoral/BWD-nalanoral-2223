@@ -4,35 +4,40 @@ html {
     font-size: 20px;
     font-weight: bold;
 }
- 
+
 
 
 
 body {
-    border: 10px solid white;
-    height: 600px;
-    margin: 30px auto;
-    max-width: 300px;   
-    padding: 40px 100px;
+
     background-image: url(../img/bg.png);
     background-size: 100%;
-    font-family: 'Passions Conflict', cursive;
-    font-size: 30px;
+    border: 10px solid white;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+    line-height: 1.7em;
+    margin: 20px auto;
+    max-width: 300px;
+    line-height: 1.7em ;
+    padding: 40px 100px;
+
+
 }
 
 
-h1{
+h1 {
     font-family: 'Great Vibes', cursive;
     font: size 30px;
+    text-align: center;
 
 }
 
-span{
-    color:red;
+span {
+    color: red;
 }
 
 mark {
-    background-color:bisque;
+    background-color: bisque;
     text-shadow: 2px 2px 20px #666;
     text-transform: uppercase;
 }
@@ -40,14 +45,14 @@ mark {
 footer {
     margin-top: 40px;
 }
- 
+
 footer p {
     margin: 0;
     text-align: right;
     font-size: 20px;
 
 }
- 
+
 .date {
     margin-top: 10px;
     font-size: 12px;
