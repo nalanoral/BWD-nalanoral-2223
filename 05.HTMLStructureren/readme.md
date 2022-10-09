@@ -1,3 +1,3 @@
 # Basic Web Development
 
-## Oefeningen 05.Structureren
+## Oefeningen 05. Structureren
