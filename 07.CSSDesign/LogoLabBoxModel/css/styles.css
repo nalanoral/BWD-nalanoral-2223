@@ -1,0 +1,56 @@
+/* html */
+
+/* --- */
+
+/* header */
+
+header {
+    border-bottom: solid 60px #ebebeb;
+}
+
+header h1 span {
+    display: none;
+}
+
+header .wrapper {
+    padding-bottom: 150px;
+
+}
+
+nav li {
+    padding: 10px;
+    margin: 0px;
+}
+
+nav a {
+    padding: 10px;
+    margin: 0px;
+}
+
+img#einstein {
+    bottom: -40px;
+}
+
+.wrapper section {
+    margin-bottom: 100px;
+    padding-top: 50px;
+
+}
+
+.wrapper aside {
+    margin-bottom: 100px;
+    padding-top: 50px;
+
+}
+
+.button a {
+    margin: 15px;
+    margin-left: 0px;
+    padding: 10px;
+
+}
+li #ctaTwitter {
+    margin-top: 10px;
+    margin-left: 0%;
+
+}

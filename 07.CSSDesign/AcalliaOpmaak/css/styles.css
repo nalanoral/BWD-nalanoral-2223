@@ -1,0 +1,160 @@
+/**
+ *
+ * Common styles
+ *
+ * @author Nalan ORAL
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+/* ... */
+
+html {
+   background-color: #dfdfdf;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   line-height: 1.4;
+}
+
+header {
+   background-color: #fff;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+/* ... */
+
+nav ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+nav li {
+   list-style: none;
+   margin: 5px;
+   padding: 10px;
+}
+
+nav li a {
+   background-size: 60px;
+   color: #000000;
+   display: inline-block;
+   padding: 5px;
+   text-decoration: none;
+}
+
+nav li a:hover {
+   background-color: #B52025;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+a.active {
+   background-color: #b52025;
+   color: #fff;
+   padding: 10px;
+}
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+/* ... */
+
+#banner {
+   background-image: url(../img/slider_photo2.jpg);
+   border: #b52025 solid 8px;
+   box-shadow: 10px 10px 5px #dfdfdf;
+}
+
+#banner p {
+   background-color: #000000;
+   color: #fff;
+   opacity: 0.7;
+}
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+main {
+   background-color: #fff;
+}
+
+h3 {
+   color: #B52025;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.4;
+   text-transform: uppercase;
+}
+
+h3:after {
+   content: "→";
+}
+
+img.minibanner {
+   border: solid #dfdfdf 2px
+}
+
+.more a {
+   border: solid #B52025 2px;
+   border-width: 2px;
+   border-radius: 5px;
+   color: #B52025;
+   padding: 5px;
+   text-decoration: none;
+   text-transform: lowercase;
+   float: right;
+}
+
+.more a::after {
+   content: "»";
+
+}
+
+#email {
+   background-color: #FDEAEB;
+
+}
+
+input {
+   background-color: #B52025;
+   color: #fff;
+
+}
+
+form label {
+   display: none;
+}
+
+
+/* ... */
+
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+/* ... */
+footer {
+   background: linear-gradient(#dfdfdf 40%, #fff);
+   border-top: dotted 2px #dfdfdf;
+   text-align: center;
+}
