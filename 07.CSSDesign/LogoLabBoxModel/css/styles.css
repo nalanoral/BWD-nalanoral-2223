@@ -49,8 +49,26 @@ img#einstein {
     padding: 10px;
 
 }
-li #ctaTwitter {
-    margin-top: 10px;
-    margin-left: 0%;
-
+li#ctaTwitter {
+	margin-top: 10px;
+	padding-left: 100px;
+    padding-top: 20px;
+}
+li#ctaFacebook {
+	margin-top: 10px;
+	padding-left: 100px;
+    padding-top: 20px;
+}
+li#ctaNetlog {
+	margin-top: 10px;
+	padding-left: 100px;
+    padding-top: 20px;
+}
+footer h4{
+    padding: 20px;
+    padding-left: 0px;
+}
+footer ul li {
+    padding: 3px;
+    padding-left: 0px;
 }
