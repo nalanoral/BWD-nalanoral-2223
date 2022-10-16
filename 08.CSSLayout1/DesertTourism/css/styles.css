@@ -36,8 +36,9 @@ nav ul li {
     display: inline-block;
     margin: 10px;
 }
-
-
+#logo {
+    margin-bottom: 40px;
+}
 
 /* MAIN */
 /* ====== */

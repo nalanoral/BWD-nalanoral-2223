@@ -126,6 +126,7 @@ header .wrapper {
    display: flex;
    list-style: none;
 }
+
 .wrapper ul li {
    margin: 15px;
 }
@@ -192,18 +193,34 @@ main p {
    line-height: 20px;
 }
 
+main .wrapper {
+   display: flex;
+   justify-content: space-between;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
 /* ===========================================
    Footer
    =========================================== */
 
 footer {
-   display: flex;
-   justify-content: space-between;
+
    background-color: #fff;
    border-top: 2px solid #ebeceb;
    color: #666;
    font-size: 11px;
    padding: 15px;
+}
+
+footer .wrapper {
+   display: flex;
+   justify-content: space-between;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 footer>div a {
@@ -214,4 +231,12 @@ footer>div a {
 
 #social_icons {
    list-style: none;
+   display: flex;
+   flex-flow: nowrap;
+   justify-content: space-between;
+}
+
+#social_icons li {
+   display: flex;
+   margin-left: 10px;
 }

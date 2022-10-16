@@ -1,0 +1,159 @@
+/**
+ * Start Styles
+ *
+ * @author Nalan ORAL <nalan.oral@student.odisee.be>
+ *
+ */
+
+/* RESET */
+/* ===== */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+
+/* GENERAL */
+/* ======= */
+/* elements */
+body {
+    color: #666;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 10px 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #311181;
+    margin: 0;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: weight 1.8em;
+}
+
+a {
+    color: #982216;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(113, 105, 105);
+    margin: 0px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+
+
+#logo span {
+    display: none;
+}
+
+
+/* HEADER */
+/* ======= */
+
+
+header {
+    height: 300px;
+
+}
+
+#mainmenu {
+    max-width: 800px;
+}
+
+#logo span {
+    display: none;
+}
+
+
+img.logo {
+    display: block;
+}
+
+/* ===========================================/
+      Banner
+/ =========================================== */
+
+#banner {
+    border: 1px solid rgb(22, 22, 23);
+    height: 260px;
+    
+    position: relative;
+}
+
+#banner p {
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+/* ======= */
+#site_footer {
+    font: size 14px;
+    ;
+}

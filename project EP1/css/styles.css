@@ -1,0 +1,118 @@
+/**
+ * Start Styles
+ *
+ * @author Nalan ORAL <nalan.oral@student.odisee.be>
+ *
+ */
+/* GENERAL */
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+
+}
+
+#pagewrapper {
+    background-color: beige;
+    margin: 0 auto;
+    max-width: 1018px;
+}
+
+/* ======= */
+
+/* HEADER */
+
+header {
+
+    background-color: #0c0f38;
+    padding: 20px;
+    width: 100%;
+}
+
+
+/* ======= */
+
+/* MAINMENU*/
+
+#mainmenu {
+    background-color: #640106;
+    display: flex;
+    flex-flow: row nowrap; 
+    margin: 0px;
+    padding-left: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+
+
+#mainmenu a {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+
+#mainmenu li:hover a {
+    background-color: #e40d18;
+}
+
+#mainmenu li.active a {
+    background-color: #640106;
+}
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+
+
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    border:#640106 solid 2px;
+    box-shadow: 5px 5px 5px #8a8282;
+ }
+ 
+ #banner p {
+    
+    color: black;
+    opacity: 0.7;
+ }
+ #banner h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px 20px,20px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+/* ======= */
+
+/* MAIN*/
+main {
+    padding: 20px;
+}
+
+
+

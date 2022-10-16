@@ -2,10 +2,22 @@
    Main
    =========================================== */
 
+main {
+   display: flex;
+   flex-flow: column;
+}
+
+
 /* top */
 
 #main_top {
    padding: 30px 15px 0 15px;
+ 
+}
+
+#main_top p {
+   text-align:left;
+   padding-right: 60px;
 }
 
 #main_top h2 {
@@ -18,11 +30,15 @@ address {
    font-style: normal;
    line-height: 1.6;
    margin-bottom: 20px;
+
 }
+
 
 /* bottom */
 
-#main_bottom {
+div #main_bottom {
+   display: flex;
+   justify-content: space-between;
    padding: 30px 15px 0 15px;
 }
 
@@ -30,14 +46,57 @@ iframe {
    border: none;
 }
 
+#reservewall h2 {
+   margin-left: 20px;
+
+}
+
 /* form */
 
 form label {
    font-size: 16px;
    font-style: italic;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   max-width: 600px;
+   ;
 }
 
 form input {
    padding: 7px;
 }
 
+form p {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+
+.left {
+   width: 55%;
+   float: left;
+   padding-left: 20px;
+
+}
+
+.right {
+  
+   width: 40%;
+   float: right;
+   padding-right: 10px;
+}
+
+label {
+   width: 25%;
+}
+
+input,
+textarea {
+   width: 75%;
+}
+
+textarea #inpMessage {
+   line-height: 70px;
+}
