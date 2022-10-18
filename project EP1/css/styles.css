@@ -15,7 +15,7 @@ img {
 
 body {
     background-color: #fff;
-    color: #212529;
+    color: #fff;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
@@ -38,9 +38,37 @@ body {
 header {
 
     background-color: #0c0f38;
+    display: block;
+  
     padding: 20px;
     width: 100%;
 }
+
+#header #search {
+    display: block;
+    float: right;
+}
+
+#header input {
+    display: block;
+    float: left;
+    width: 229px;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    color: #ebe3d9;
+    background-color: #603ad2;
+    border: 1px solid #DBDECD;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#header input#go {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 4px;
+}
+
 
 
 /* ======= */
@@ -50,7 +78,7 @@ header {
 #mainmenu {
     background-color: #640106;
     display: flex;
-    flex-flow: row nowrap; 
+    flex-flow: row nowrap;
     margin: 0px;
     padding-left: 20px;
     list-style-type: none;
@@ -89,22 +117,24 @@ header {
 #banner {
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
-    border:#640106 solid 2px;
+    background-size: cover;
+    border: #640106 solid 4px;
     box-shadow: 5px 5px 5px #8a8282;
- }
- 
- #banner p {
-    
+}
+
+#banner p {
+
     color: black;
     opacity: 0.7;
- }
- #banner h2{
+}
+
+#banner h2 {
     font-size: 30px;
     font-weight: bold;
-    padding: 20px 20px 20px,20px;
+    padding: 20px 20px 20px, 20px;
     text-align: center;
     text-transform: uppercase;
-    
+
 }
 
 /* ======= */
@@ -114,5 +144,35 @@ main {
     padding: 20px;
 }
 
+.info {
+    margin: auto;
+    width: 900px;
+}
+
+.leftimage {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+div.wrapper {
+    padding: 20px 0;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
 
 
+#container {
+    display: flex;
+   justify-content: space-between;
+   
+
+}
+.container_col{
+    justify-content: space-between;
+    max-width: 30%;
+
+}
