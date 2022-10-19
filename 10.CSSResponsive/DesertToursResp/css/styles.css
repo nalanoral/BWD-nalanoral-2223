@@ -10,12 +10,13 @@
 body {
     margin-left: auto;
     margin-right: auto;
+    font-size: 16px;
 }
 
 .wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
 header .wrapper {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 nav ul {
@@ -40,11 +41,13 @@ nav ul li {
     display: inline-block;
     margin: 10px;
 }
+
 #logo {
     margin-bottom: 40px;
 }
-#logo img{
-	width: 83%;
+
+#logo img {
+    width: 83%;
 }
 
 /* MAIN */
@@ -84,8 +87,6 @@ section.left {
     width: 30%;
     padding: 5px;
     margin-bottom: 30px;
-
-
 }
 
 img.visual {
@@ -108,7 +109,7 @@ img.thumb {
 }
 
 .doormat_col {
-    
+
     justify-content: space-between;
 }
 
@@ -116,7 +117,7 @@ img.thumb {
 /* FOOTER */
 /* ======= */
 footer {
-    color:#fff;
+    color: #fff;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -128,5 +129,67 @@ footer {
    Media queries
    =========================================== */
 
-   @media (min-width: 550px) {
+@media(min-width: 400px) {
+
+    #gallery ul {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 720px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    #content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+
+    }
+    .right {
+        width: 30%;
+       
+    }
+
+    section.left {
+        width: 60%;
+        
+    }
+    #doormat {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    
+    }
+    
+
+    footer {
+        align-items: center;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+
+    
+    }
+
+
+
+
 }

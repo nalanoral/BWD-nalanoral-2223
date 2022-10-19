@@ -13,22 +13,24 @@ img {
 
 
 
+
+
 body {
     background-color: #fff;
     color: #fff;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
     font-weight: normal;
     margin: 0;
-    text-align: left;
+
 
 }
 
-#pagewrapper {
-    background-color: beige;
+.wrapper {
     margin: 0 auto;
-    max-width: 1018px;
+    max-width: 960px;
+ 
 }
 
 /* ======= */
@@ -36,14 +38,17 @@ body {
 /* HEADER */
 
 header {
-
+    align-items: center;
     background-color: #0c0f38;
-    display: block;
-  
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
-    width: 100%;
+    
 }
-
+header h1 img {
+    display: block;
+ }
+ 
 #header #search {
     display: block;
     float: right;
@@ -75,37 +80,42 @@ header {
 
 /* MAINMENU*/
 
-#mainmenu {
-    background-color: #640106;
+nav ul {
     display: flex;
-    flex-flow: row nowrap;
-    margin: 0px;
-    padding-left: 20px;
-    list-style-type: none;
-    text-transform: uppercase;
-}
+    justify-content: space-between;
+    background-color: #B52025;
+ }
+ 
 
-
-
-#mainmenu a {
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: block;
-    letter-spacing: 0.1em;
-    line-height: 1.4em;
+ nav li {
+    list-style: none;
+    margin: 5px;
     padding: 10px;
+ }
+ 
+ nav li a {
+    background-size: 60px;
+    color: #000000;
+    display: inline-block;
+    padding: 20px;
     text-decoration: none;
-    transition: all 0.5s;
+ }
+ 
+ nav li a:hover {
+    background-color: #B52025;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+ }
+ 
+ a.active {
+    background-color: #b52025;
+    color: #fff;
+    padding: 10px;
+ }
+ 
 
-}
 
-#mainmenu li:hover a {
-    background-color: #e40d18;
-}
-
-#mainmenu li.active a {
-    background-color: #640106;
-}
 
 /* ===========================================
    Banner
@@ -123,9 +133,8 @@ header {
 }
 
 #banner p {
-
-    color: black;
-    opacity: 0.7;
+    color:#fff;
+    
 }
 
 #banner h2 {
@@ -165,14 +174,21 @@ div.wrapper {
 }
 
 
-#container {
+#ourservices {
     display: flex;
-   justify-content: space-between;
-   
+    flex-wrap: row;
+    justify-content: space-between;
+
 
 }
-.container_col{
+
+.container_col {
     justify-content: space-between;
     max-width: 30%;
 
+}
+
+.rightimage {
+    float: right;
+    padding: 0 10px 10px 0;
 }

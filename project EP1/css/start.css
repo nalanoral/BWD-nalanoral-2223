@@ -24,6 +24,15 @@ img {
 /* GENERAL */
 /* ======= */
 /* elements */
+
+#pagewrapper {
+    background-color: aliceblue;
+    margin: 0 auto;
+    max-width: 1018px;
+}
+
+
+
 body {
     color: #666;
     font-family: 'Ubuntu', sans-serif;
@@ -108,14 +117,17 @@ p {
 /* ======= */
 
 
+
 header {
-    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ }
+ 
 
-}
 
-#mainmenu {
-    max-width: 800px;
-}
+
 
 #logo span {
     display: none;
