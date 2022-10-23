@@ -12,43 +12,41 @@ img {
 }
 
 
-
-
+html {
+    background-color: #dfdfdf;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
 
 body {
     background-color: #fff;
     color: #fff;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.8;
-    font-weight: normal;
     margin: 0;
-
-
 }
 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
- 
+
 }
 
 /* ======= */
 
 /* HEADER */
-
 header {
     align-items: center;
     background-color: #0c0f38;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    
 }
+
 header h1 img {
     display: block;
- }
- 
+}
+
 #header #search {
     display: block;
     float: right;
@@ -74,8 +72,6 @@ header h1 img {
     padding: 4px;
 }
 
-
-
 /* ======= */
 
 /* MAINMENU*/
@@ -83,37 +79,37 @@ header h1 img {
 nav ul {
     display: flex;
     justify-content: space-between;
-    background-color: #B52025;
- }
- 
 
- nav li {
+}
+
+nav li {
+    font-size: 1.6em;
     list-style: none;
     margin: 5px;
     padding: 10px;
- }
- 
- nav li a {
-    background-size: 60px;
-    color: #000000;
+    text-transform: uppercase;
+}
+
+nav li a {
+    background-size: 4em;
+    color: #fff;
     display: inline-block;
-    padding: 20px;
+    padding: 5px;
     text-decoration: none;
- }
- 
- nav li a:hover {
-    background-color: #B52025;
+}
+
+nav li a:hover {
+    background-color: #d61b21;
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
- }
- 
- a.active {
-    background-color: #b52025;
+}
+
+a.active {
+    background-color: #d61b21;
     color: #fff;
     padding: 10px;
- }
- 
+}
 
 
 
@@ -133,8 +129,8 @@ nav ul {
 }
 
 #banner p {
-    color:#fff;
-    
+    color: #fff;
+
 }
 
 #banner h2 {
@@ -176,7 +172,7 @@ div.wrapper {
 
 #ourservices {
     display: flex;
-    flex-wrap: row;
+    flex-wrap: row nowrap;
     justify-content: space-between;
 
 
@@ -191,4 +187,49 @@ div.wrapper {
 .rightimage {
     float: right;
     padding: 0 10px 10px 0;
+}
+
+.midi{
+    display: flex;
+    flex-wrap: row ;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
+}
+
+#ourteams_1,#ourteams_2  {
+   
+    max-width: 60%;
+   
+   
+
+}
+.mid_2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
+}
+
+#ourteams_3,#ourteams_4  {
+   
+    max-width: 60%;
+   
+   
+
+}
+@media(min-width: 450px) {
+
+    #mainmenu ul {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
 }
