@@ -1,0 +1,211 @@
+/**
+ * Layout styles for Desert Tours
+ *
+ * @author Nalan ORAL <nalan.oral@student.odisee.be>
+ *
+ */
+
+/* GENERAL */
+/* ======= */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+/* ====== */
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#logo {
+    margin-bottom: 40px;
+}
+
+#logo img {
+    width: 83%;
+}
+
+/* MAIN */
+/* ====== */
+main {
+    padding: 0px;
+}
+
+#gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gallery ul li {
+    max-width: 23%;
+}
+
+/* CONTENT */
+/* ======= */
+#content {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6;
+
+}
+
+section.left {
+    width: 65%;
+    padding: 5px;
+}
+
+.right {
+    width: 30%;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+img.visual {
+    float: left;
+    margin-right: 1px;
+}
+
+img.thumb {
+    float: right;
+}
+
+
+
+/* DOORMAT */
+/* ======= */
+#doormat {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.doormat_col {
+
+    justify-content: space-between;
+}
+
+
+/* FOOTER */
+/* ======= */
+footer {
+    color: #fff;
+    font-size: 10px;
+    padding: 20px 20px;
+
+}
+
+/* ===========================================
+   Media queries
+   =========================================== */
+
+@media(min-width: 400px) {
+    h1 {
+        font-size: 32px;
+    }
+
+
+
+    #gallery ul li {
+        max-width: 42%;
+    }
+
+    @media (min-width: 600px) {
+        body {
+            font-size: 14px;
+        }
+
+
+
+
+        #gallery ul li {
+            max-width: 23%;
+        }
+
+        #gallery ul li {
+            max-width: 23%;
+        }
+
+
+    }
+
+    @media (min-width: 720px) {
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        #content {
+            align-items: baseline;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+        }
+
+        .right {
+            display: block;
+            width: 30%;
+
+        }
+
+        section.left {
+            width: 66%;
+
+        }
+
+        #doormat {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        footer .wrapper {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        #gallery ul {
+            display: flex;
+            flex-wrap: row wrap;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+    }
+}
