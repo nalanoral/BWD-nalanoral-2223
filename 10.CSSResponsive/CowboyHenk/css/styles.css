@@ -1,5 +1,5 @@
 /**
- * Styles for The Lonely Cowboy
+ * Styles for Cowboy Hank
  *
  * @author Nalan ORAL
  *
@@ -349,16 +349,16 @@ aside {
    Media queries
    =========================================== */
 
-@media (min-width: 550px) {
+@media (min-width: 400px) {
 
-	header>h1 {
+	h1 {
 		font-size: 36px;
 		font-weight: bold;
 		margin: 10px 0;
 		text-align: center;
 	}
 
-	header>p {
+	p {
 		font-size: 15px;
 		display: block;
 	}
@@ -374,16 +374,22 @@ aside {
 	}
 
 	.site_footer {
-		background-color: #616161;
-		color: #fff;
-		display: block;
+	
+		display: flex;
+		justify-content: space-between;
+		font-size: 12px;
+		padding: 20px;
 	}
 
 
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
+	body {
+		font-size: 14px;
+	}
+
 	nav ul {
 		display: flex;
 		justify-content: center;
@@ -391,7 +397,7 @@ aside {
 	}
 
 	.entry h1 {
-		font-size: 32px;
+		font-size: 14px;
 	}
 
 	.subtitle {
@@ -399,15 +405,15 @@ aside {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
 	main {
 		display: flex;
+		justify-content:space-between;
 	}
 
 	main #blogentries {
 		width: 75%;
 	}
-
 
 	main #aside {
 		width: 25%;

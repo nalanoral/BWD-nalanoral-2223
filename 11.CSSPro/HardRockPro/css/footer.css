@@ -1,0 +1,48 @@
+/**
+ * 
+ *
+ * @author : Nalan Oral <nalan.oral@studert.odisse.be>
+    Description: Footer
+ *
+ */
+
+
+
+/* ===========================================
+    Footer
+    =========================================== */
+ 
+    footer {
+ 
+        background-color: #fff;
+        border-top: 2px solid #ebeceb;
+        color: #666;
+        font-size: 11px;
+        padding: 15px;
+     }
+     
+     footer .wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     
+     footer>div a {
+        text-decoration: underline;
+        color: #666;
+        font-size: 11px;
+     }
+     
+     #social_icons {
+        list-style: none;
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: space-between;
+     }
+     
+     #social_icons li {
+        display: flex;
+        margin-left: 10px;
+     }

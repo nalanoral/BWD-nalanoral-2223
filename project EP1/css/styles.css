@@ -151,7 +151,7 @@ main {
 
 .info {
     margin: auto;
-    width: 900px;
+    max-width: 900px;
 }
 
 .leftimage {
@@ -173,7 +173,7 @@ div.wrapper {
 #ourservices {
     display: flex;
     flex-wrap: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 
 }
@@ -189,23 +189,26 @@ div.wrapper {
     padding: 0 10px 10px 0;
 }
 
-.midi{
+.midi {
     display: flex;
-    flex-wrap: row ;
+    flex-wrap: row;
     justify-content: space-between;
     margin-bottom: 20px;
 
 
 }
 
-#ourteams_1,#ourteams_2  {
-   
+#ourteams_1,
+#ourteams_2 {
+
     max-width: 60%;
-   
-   
+    justify-content: center;
+
+
 
 }
-.mid_2{
+
+.mid_2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -213,14 +216,16 @@ div.wrapper {
 
 }
 
-#ourteams_3,#ourteams_4  {
-   
+#ourteams_3,
+#ourteams_4 {
     max-width: 60%;
-   
-   
 
 }
+
 @media(min-width: 450px) {
+    body {
+        font-size: 16px;
+    }
 
     #mainmenu ul {
         align-items: center;
@@ -228,8 +233,16 @@ div.wrapper {
         justify-content: space-between;
     }
 
-    body {
-        font-size: 14px;
-    }
 
+    #mainmenu ul li {
+        max-width: 23%;
+    }
+}
+
+@media (min-width: 720px) {
+    .wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
 }

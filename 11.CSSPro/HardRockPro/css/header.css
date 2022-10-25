@@ -1,0 +1,77 @@
+/**
+ * 
+ *
+ * @author : Nalan Oral <nalan.oral@studert.odisse.be>
+    Description: Header
+ *
+ */
+
+
+
+/* ===========================================
+    Header
+    =========================================== */
+
+header {
+   background: linear-gradient(0deg, rgba(200, 200, 200, 1) 35%, rgba(240, 240, 240, 1) 85%);
+}
+
+header .wrapper {
+   align-items: center;
+   display: flex;
+   padding: 1.25rem 0;
+}
+
+.wrapper {
+
+   display: flex;
+   justify-content: space-between;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 60rem;
+
+}
+
+.wrapper ul {
+   align-items: center;
+   display: flex;
+   list-style: none;
+}
+
+.wrapper ul li {
+   margin: 15px;
+}
+
+
+.wrapper p {
+   display: flex;
+   justify-content: flex-end;
+   list-style: none;
+}
+
+
+/* ===========================================
+           Banner
+ =========================================== */
+
+
+/* logo */
+
+.logo h1 {
+   font-size: 48px;
+}
+
+.logo h1 a {
+   color: #333;
+   font-family: 'Special Elite', cursive;
+}
+
+.logo h1 a:hover {
+   text-decoration: none;
+}
+
+.logo p {
+   font-size: 14px;
+   color: #555;
+   font-style: italic;
+}

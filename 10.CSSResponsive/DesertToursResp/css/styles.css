@@ -67,8 +67,6 @@ main {
     max-width: 23%;
 }
 
-
-
 /* CONTENT */
 /* ======= */
 #content {
@@ -118,9 +116,7 @@ img.thumb {
 /* ======= */
 footer {
     color: #fff;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    font-size: 10px;
     padding: 20px 20px;
 
 }
@@ -130,66 +126,86 @@ footer {
    =========================================== */
 
 @media(min-width: 400px) {
-
-    #gallery ul {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    body {
-        font-size: 14px;
-    }
-
-}
-
-@media (min-width: 720px) {
-    main {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    nav ul {
-        display: flex;
-    }
-
-    #content {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        flex-direction: row;
-
-
-    }
-    .right {
-        width: 30%;
-       
-    }
-
-    section.left {
-        width: 60%;
-        
-    }
-    #doormat {
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
-    
-    }
-    
-
-    footer {
-        align-items: center;
-        display: flex;
-        flex-flow: wrap;
-        justify-content: space-between;
-
-    
+    h1 {
+        font-size: 32px;
     }
 
 
 
+    #gallery ul li {
+        max-width: 42%;
+    }
 
+    @media (min-width: 600px) {
+        body {
+            font-size: 14px;
+        }
+
+
+
+
+        #gallery ul li {
+            max-width: 23%;
+        }
+
+        #gallery ul li {
+            max-width: 23%;
+        }
+
+
+    }
+
+    @media (min-width: 720px) {
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        #content {
+            align-items: baseline;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+        }
+
+        .right {
+            display: block;
+            width: 30%;
+
+        }
+
+        section.left {
+            width: 66%;
+
+        }
+
+        #doormat {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        footer .wrapper {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        #gallery ul {
+            display: flex;
+            flex-wrap: row wrap;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+    }
 }
