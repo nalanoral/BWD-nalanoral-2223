@@ -6,56 +6,32 @@
  */
 /* GENERAL */
 
-
-img {
-    max-width: 100%;
-}
-
-
-html {
-    background-color: #dfdfdf;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 1.4;
-}
-
-body {
-    background-color: #fff;
-    color: #fff;
-    font-size: 14px;
-    margin: 0;
-}
-
-.wrapper {
-    margin: 0 auto;
-    max-width: 960px;
-
-}
-
 /* ======= */
 
 /* HEADER */
+
 header {
-    align-items: center;
     background-color: #0c0f38;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: flex-end;
+    padding: 1.65rem;
 }
 
 header h1 img {
     display: block;
 }
 
-#header #search {
-    display: block;
+.button-search {
+
     float: right;
+    position: relative;
+    border: #d61b21;
 }
 
 #header input {
     display: block;
     float: left;
-    width: 229px;
+    max-width: 13.75rem;
     margin: 0 5px 0 0;
     padding: 5px;
     color: #ebe3d9;
@@ -79,11 +55,14 @@ header h1 img {
 nav ul {
     display: flex;
     justify-content: space-between;
+    
 
 }
 
 nav li {
-    font-size: 1.6em;
+    align-items: center;
+    font-size: 1.145rem;
+    font-weight: bold;
     list-style: none;
     margin: 5px;
     padding: 10px;
@@ -99,14 +78,14 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #d61b21;
+    background-color: #9d060b;
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
 
 a.active {
-    background-color: #d61b21;
+    background-color: #9d060b;
     color: #fff;
     padding: 10px;
 }
@@ -115,6 +94,7 @@ a.active {
 
 /* ===========================================
    Banner
+
    =========================================== */
 
 /* banner styles here */
@@ -128,19 +108,37 @@ a.active {
     box-shadow: 5px 5px 5px #8a8282;
 }
 
-#banner p {
-    color: #fff;
-
-}
-
-#banner h2 {
+#banner h3 {
     font-size: 30px;
     font-weight: bold;
     padding: 20px 20px 20px, 20px;
     text-align: center;
     text-transform: uppercase;
-
 }
+
+.banner_box {
+    padding: 7.5rem 0 3.75rem 0;
+    margin: 0px auto;
+    max-width: 60rem;
+    width: 100%;
+    font-size: 1.125rem;
+    padding: 0.875rem 3.75rem;
+}
+
+.banner_box p {
+
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 6rem;
+    text-align: center;
+
+    background-color: #000000;
+    color: #fff;
+}
+
+
+
+
 
 /* ======= */
 
@@ -151,22 +149,12 @@ main {
 
 .info {
     margin: auto;
-    max-width: 900px;
+    width: 100%;
 }
 
 .leftimage {
     float: left;
-    padding: 0 10px 10px 0;
-}
-
-div.wrapper {
-    padding: 20px 0;
-    width: 100%;
-    margin: 0;
-    text-align: left;
-    display: flex;
-    flex-flow: row nowrap;
-
+    padding: 0 0.625rem 0.625rem 0;
 }
 
 
@@ -175,6 +163,38 @@ div.wrapper {
     flex-wrap: row nowrap;
     justify-content: space-around;
 
+}
+
+#training {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.field_item p {
+    text-align: center;
+}
+
+
+.button {
+
+    vertical-align: middle;
+    margin: 1rem 1rem 1rem 0;
+    padding: 0.5em 0.5em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.65rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #9d060b;
+    color: #fff;
+
+}
+
+h3 {
+    text-align: center;
 
 }
 
@@ -193,56 +213,206 @@ div.wrapper {
     display: flex;
     flex-wrap: row;
     justify-content: space-between;
-    margin-bottom: 20px;
-
+    margin-bottom: 0.5rem;
+    margin-left: 10%;
 
 }
 
+#container_team {
+    width: 100%;
+
+}
+
+#container_tm2 {
+    width: 100%;
+
+}
+#doormat .wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
 #ourteams_1,
 #ourteams_2 {
-
-    max-width: 60%;
+    width: 100%;
     justify-content: center;
-
-
-
 }
 
 .mid_2 {
     display: flex;
+    flex-wrap: row;
     justify-content: space-between;
-    margin-bottom: 20px;
-
+    margin-bottom: 0.5rem;
+    margin-left: 10%;
 
 }
 
 #ourteams_3,
 #ourteams_4 {
-    max-width: 60%;
+    width: 100%;
 
 }
 
-@media(min-width: 450px) {
+h4 {
+    margin-bottom: 0.625rem;
+    margin: 0;
+    padding-left: 0.938rem;
+}
+
+p {
+    color: #57575e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    margin-bottom: 0.625rem;
+    line-height: 1.625em;
+    padding-left: 0.938rem;
+    text-align: left;
+}
+
+/* ===========================================
+    Footer
+    =========================================== */
+#newsletter {
+    padding: 1.875rem 0.938rem 0 0.938rem;
+}
+
+form label {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+form input {
+    padding: 0.375rem;
+    width: 20.625rem;
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+footer {
+    background-color: #fff;
+    border-top: 2px solid #ebeceb;
+    color: #666;
+    font-size: 0.625rem;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer>div a {
+    text-decoration: underline;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.containerframe {
+    position: relative;
+    padding-bottom: 75%;
+    height: 43rem;
+    overflow: hidden;
+    max-width: 120rem;
+
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#social_icons {
+    list-style: none;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: flex-end;
+}
+
+#social_icons li {
+    display: flex;
+    margin-left: 10px;
+    max-width: 50%;
+}
+
+/*small device */
+
+@media(min-width: 576px) {
     body {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
-    #mainmenu ul {
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #wrapper {
+
+        width: 70%;
+    }
+
+    .mainmenu ul {
         align-items: center;
         display: flex;
         justify-content: space-between;
     }
 
 
-    #mainmenu ul li {
+    .mainmenu ul li {
         max-width: 23%;
     }
 }
 
-@media (min-width: 720px) {
-    .wrapper {
-        align-items: center;
+/*medium devices (tablets,768px and up */
+@media (min-width: 768px) {
+    #wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    #container {
+        max-width: 70;
+    }
+
+    div#doormat .wrapper {
         display: flex;
         justify-content: space-between;
+        max-width: 70;
     }
+
+
+
+
+
+
+
+
+
 }
+
+/* 32 px =2rem  (1/16)*/

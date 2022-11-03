@@ -38,19 +38,20 @@ header {
 nav ul {
    display: flex;
    justify-content: space-between;
+   text-align: center;
 }
 
 nav li {
    list-style: none;
-   margin: 5px;
-   padding: 10px;
+   margin: 0.3125rem;
+   padding: 0.65rem;
 }
 
 nav li a {
    background-size: 60px;
    color: #000000;
    display: inline-block;
-   padding: 5px;
+   padding: 0.3125rem;
    text-decoration: none;
 }
 
