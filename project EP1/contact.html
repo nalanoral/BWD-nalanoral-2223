@@ -18,81 +18,96 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1 id="logo"><a href="#"><img src="img/Ndata.png" alt=""><span>N Data ICT SOLUTIONS</span></a></h1>
-            <nav>
-                <ul class="mainmenu">
-                    <li><a href="index">HOME</a></li>
-                    <li><a href="index">Services</a></li>
-                    <li><a href="training.html">Training</a></li>
-                    <li><a href="index.html">Support Tools</a></li>
-                    <li><a href="index.html">VACATURES</a></li>
-                    <li><a href="aboutus">about us</a></li>
-                    <li><a href="contact">contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="search">
-            <div class="button-search">
-                <input type="text" placeholder="what do you want to learn ?">
+    <div id="pagewrapper">
+        <header>
+            <div>
+                <h1 id="logo"><a href="#"><img src="img/Ndata.png" alt=""><span>N Data ICT SOLUTIONS</span></a></h1>
+                <nav>
+                    <ul class="mainmenu">
+                        <li><a href="index">HOME</a></li>
+                        <li><a href="index">Services</a></li>
+                        <li><a href="training.html">Training</a></li>
+                        <li><a href="index.html">Support Tools</a></li>
+                        <li><a href="index.html">VACATURES</a></li>
+                        <li><a href="aboutus">about us</a></li>
+                        <li><a href="contact">contact</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </header>
-    <div id="banner">
-        <div class="wrapper">
-            <div class="banner_box">
-                <h3>Uw bedrijf verdient de juiste ICT-oplossingen</h3>
-                <p>
-                    Efficiënte ICT-toepassingen zijn onmisbaar voor het succes van uw onderneming. N Data ICT
-                    Solutions
-                    is
-                    gespecialiseerd in alle ICT-oplossingen voor kleine en middelgrote bedrijven.</p>
-            </div>
-        </div>
-    </div>
-
-        <main>
-            <div id="doormat">
-                <div class="wrapper">
-
-                    <section class="doormat_col" id="newsletter">
-                        <h3>CONTACT US</h3>
-                        <p>We will be happy to hear about you</p>
-                        <form class="info__form" action="#">
-                            <p>
-                                <label for="name">Name*:</label>
-                                <input type="text" id="name" placeholder="eg Jhon Doe">
-                            </p>
-                            <p>
-                                <label for="email">E-mail*:</label>
-                                <input type="email" id="email" placeholder="eg JhonDoe@gmail.com">
-                            </p>
-
-                            <label for="bio">Message*:</label><br>
-                            <textarea id="bio" cols="40" rows="5" required></textarea>
-
-                            <p><input type="submit" value="SUBMIT"></p>
-                        </form>
-                    </section>
-
-                    <section>
-                        <p>
-                            <span class="material-icons">location_on</span>
-                            Address: <br>
-                            Bd de l'Empereur 11, 1000 Bruxelles
-                        </p>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20154.934948505925!2d4.3349836395507815!3d50.842890300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47ea651fe19%3A0x1cca4ac91775319f!2sBd%20de%20l&#39;Empereur%2011%2C%201000%20Bruxelles!5e0!3m2!1sen!2sbe!4v1665402433146!5m2!1sen!2sbe"
-                            width="600" height="450" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </section>
-
+            <div id="search">
+                <div class="button-search">
+                    <input type="text" placeholder="what do you want to learn ?">
                 </div>
             </div>
+        </header>
+        <div id="banner">
+            <div class="wrapper">
+                <div class="banner_box">
+                    <h3>Uw bedrijf verdient de juiste ICT-oplossingen</h3>
+                    <p>
+                        Efficiënte ICT-toepassingen zijn onmisbaar voor het succes van uw onderneming. N Data ICT
+                        Solutions
+                        is
+                        gespecialiseerd in alle ICT-oplossingen voor kleine en middelgrote bedrijven.</p>
+                </div>
+            </div>
+        </div>
 
 
-        </main>
+        <section id="doormat">
+            <div class="wrapper">
+                <div class="doormat_col" id="newsletter">
+                    <h3>CONTACT US</h3>
+                    <p>We will be happy to hear about you</p>
+                    <form action="#">
+
+                        <div class="row">
+                            <div class="col-1">
+                                <label for="name">Name*:</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="text" id="name" placeholder="eg Jhon Doe">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-1">
+                                <label for="email">E-mail*:</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="email" id="email" placeholder="eg JhonDoe@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-1">
+                                <label for="bio">Message*:</label><br>
+                            </div>
+                            <div class="col-2">
+                                <textarea id="bio" cols="40" rows="5" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="location">
+                    <p>
+                        <span class="material-icons">location_on</span>
+                        Address: <br>
+                        Bd de l'Empereur 11, 1000 Bruxelles
+                    </p>
+                    <div class="containerframe">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20154.934948505925!2d4.3349836395507815!3d50.842890300000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47ea651fe19%3A0x1cca4ac91775319f!2sBd%20de%20l&#39;Empereur%2011%2C%201000%20Bruxelles!5e0!3m2!1sen!2sbe!4v1665402433146!5m2!1sen!2sbe"
+                            width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- footer -->
 
         <footer id="site_footer">
@@ -105,6 +120,7 @@
                 <small>Copyright© 2022| privacy policy| N D@ta ICT Solutions</small>
             </div>
         </footer>
-   
+    </div>
 </body>
+
 </html>
