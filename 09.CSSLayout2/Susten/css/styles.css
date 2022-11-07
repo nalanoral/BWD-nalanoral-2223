@@ -15,7 +15,6 @@ body {
 }
 h1,
 h2,
-h2,
 h3,
 h4 {
     font-family: 'Manjari', sans-serif;
@@ -106,14 +105,13 @@ header.wrapper {
     margin-bottom: 0;
     display: flex;
     justify-content: flex-end;
-    text-align: right
+    text-align: right;
 }
 
 
 
 
 /* main */
-/*         */
 .ourcommitments {
     display: flex;
     flex-flow: row;
@@ -145,14 +143,12 @@ a.learnmore {
 }
 
 /* footer */
-/*         */
 footer  {
     background-color: #0E0E0E;
     color: #fff;
     font-size: 11px;
 
 }
-
 
 footer .wrapper {
     align-items: center;
@@ -178,7 +174,7 @@ nav ul li {
 
     padding-top: 5px;
     padding-right: 10px;
-    font-family: 10px;
+    font-size: 10px;
 }
 
 nav li a {
